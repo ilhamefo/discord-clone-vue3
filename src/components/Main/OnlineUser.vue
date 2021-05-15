@@ -16,12 +16,12 @@
           ></span>
         </div>
         <div class="flex flex-col">
-          <div class="flex">
+          <div class="flex items-center">
             <span class="font-semibold text-base group-hover:text-gray-300"
               >Efo</span
             >
             <span
-              class="text-base text-gray-400 group-hover:text-gray-300 hidden group-hover:flex"
+              class="text-sm text-gray-400 group-hover:text-gray-300 hidden group-hover:flex"
               >#{{ "8640" }}</span
             >
           </div>
@@ -33,7 +33,9 @@
       </div>
 
       <div class="right flex">
-        <span class="flex p-2 bg-discord-900 rounded-full mx-1">
+        <span
+          class="flex p-2 bg-discord-500 group-hover:bg-discord-900 rounded-full mx-1"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="18px"
@@ -47,7 +49,9 @@
             />
           </svg>
         </span>
-        <span class="flex p-2 bg-discord-900 rounded-full mx-1">
+        <span
+          class="flex p-2 bg-discord-500 group-hover:bg-discord-900 rounded-full mx-1"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="18px"

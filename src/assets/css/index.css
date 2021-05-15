@@ -6,7 +6,7 @@
 	@apply bg-blue-500 hover:bg-blue-700 text-white;
 }
 .root {
-	@apply flex items-center h-screen;
+	@apply flex items-center h-screen relative;
 }
 .icons {
 	@apply h-12 w-12 flex justify-center items-center hover:rounded-2xl hover:bg-purple-500 cursor-pointer transition-round duration-100 overflow-hidden;

@@ -7,9 +7,13 @@
         <button
           type="button"
           class="bg-discord-900 rounded-md px-2 w-full text-sm py-1.5 text-left text-gray-500 focus:outline-none"
+          @click="toggle"
         >
           Find or start a conversation
         </button>
+        <teleport to="#modal">
+          <modal v-if="state.showModal"></modal>
+        </teleport>
       </div>
       <div class="p-2 grid grid-flow-row auto-rows-max gap-1">
         <div
@@ -206,7 +210,25 @@
 </template>
 
 <script>
-export default {};
+import { ref, computed, onMounted } from "vue";
+import Modal from "../Main/Modal.vue";
+import { useStore } from "vuex";
+export default {
+  components: { Modal },
+  setup() {
+    const store = useStore();
+    const state = computed(() => store.state.test);
+
+    const toggle = () => {
+      store.commit("test/toggleModal");
+    };
+
+    return {
+      state,
+      toggle,
+    };
+  },
+};
 </script>
 
 <style scoped>

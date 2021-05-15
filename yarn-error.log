@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\ilhamefo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-router@4
+  C:\Program Files\nodejs\node.exe C:\Users\ilhamefo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vuex@next --save
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ilhamefo\bin;C:\Program Files (x86)\Python38-32\Scripts;C:\Program Files (x86)\Python38-32;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\Bitvise SSH Client;E:\Java\jre\bin;E:\Java\jdk\bin;C:\Users\ilhamefo\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\ilhamefo\AppData\Local\Programs\Python\Python37;C:\Users\ilhamefo\AppData\Local\Microsoft\WindowsApps;C:\Users\ilhamefo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ilhamefo\AppData\Roaming\Composer\vendor\bin;C:\Users\ilhamefo\AppData\Roaming\npm;C:\Users\ilhamefo\App;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;E:\ANDROID\platforms;C:\Program Files\nodejs;E:\ANDROID\flutter\bin;E:\ANDROID\tools\bin;E:\ANDROID;C:\Users\ilhamefo\AppData\Local\Programs\Microsoft VS Code\bin;%ANDROID_HOME%\cmdline-tools\tools\bin;C:\Users\ilhamefo\AppData\Local\Microsoft\WindowsApps;E:\ANDROID\platforms;C:\Users\ilhamefo\AppData\Roaming\npm
@@ -19,7 +19,7 @@ Trace:
 npm manifest: 
   {
   	"name": "discord-clone-vue3",
-  	"version": "0.0.0",
+  	"version": "0.0.1",
   	"scripts": {
   		"dev": "vite",
   		"build": "vite build",
@@ -36,7 +36,11 @@ npm manifest:
   		"postcss": "^8.2.15",
   		"tailwindcss": "^2.1.2",
   		"vite": "^2.3.0"
-  	}
+  	},
+  	"description": "discord app clone with vue 3 (only frontend)",
+  	"main": "index.js",
+  	"author": "Ilham Efo Hernanda <ilhamefo2@gmail.com>",
+  	"license": "MIT"
   }
 
 yarn manifest: 

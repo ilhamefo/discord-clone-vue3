@@ -1,6 +1,6 @@
 {
 	"name": "discord-clone-vue3",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
@@ -17,5 +17,9 @@
 		"postcss": "^8.2.15",
 		"tailwindcss": "^2.1.2",
 		"vite": "^2.3.0"
-	}
+	},
+	"description": "discord app clone with vue 3 (only frontend)",
+	"main": "index.js",
+	"author": "Ilham Efo Hernanda <ilhamefo2@gmail.com>",
+	"license": "MIT"
 }
