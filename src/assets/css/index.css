@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue {
+	@apply bg-blue-500 hover:bg-blue-700 text-white;
+}
+.root {
+	@apply flex items-center h-screen;
+}
+.icons {
+	@apply h-12 w-12 flex justify-center items-center hover:rounded-2xl hover:bg-purple-500 cursor-pointer transition-round duration-100 overflow-hidden;
+}
+.left-section {
+	@apply bg-discord-900 h-full flex;
+}
+
+.icon-wrapper {
+	@apply flex items-center justify-center hover:bg-discord-300 p-1.5 rounded-md cursor-pointer;
+}
+.tooltip {
+	@apply text-white bg-black ml-2 px-3 py-1.5 rounded-xl font-semibold transition-opacity duration-500 ease-in-out shadow-lg;
+}
